@@ -8,9 +8,9 @@ Group:		X11/Applications/Sound
 Source0:	http://savannah.nongnu.org/download/streamtuner/%{name}-%{version}.tar.gz
 # Source0-md5:	018867f35a50dca2bbdae5ef58926ca8
 URL:		http://www.nongnu.org/streamtuner/
-Buildrequires:	gtk+2-devel >= 2:2.4.4
+BuildRequires:	gtk+2-devel >= 2:2.4.4
 BuildRequires:	python-devel >= 2.2
-Buildrequires:	streamtuner-devel >= 0.12.0
+BuildRequires:	streamtuner-devel >= 0.12.0
 Requires:	streamtuner >= 0.12.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
