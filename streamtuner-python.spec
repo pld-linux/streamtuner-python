@@ -1,5 +1,5 @@
 Summary:	Plugin for streamtuner providing an embedded Python interpreter
-Summary(pl):	Wtyczka dla streamtunera dostarczaj±ca wbudowany interpreter Pythona
+Summary(pl.UTF-8):   Wtyczka dla streamtunera dostarczajÄ…ca wbudowany interpreter Pythona
 Name:		streamtuner-python
 Version:	0.1.2
 Release:	1
@@ -17,8 +17,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Plugin for streamtuner providing an embedded Python interpreter.
 
-%description -l pl
-Wtyczka dla streamtunera dostarczaj±ca wbudowany interpreter Pythona.
+%description -l pl.UTF-8
+Wtyczka dla streamtunera dostarczajÄ…ca wbudowany interpreter Pythona.
 
 %prep
 %setup -q
